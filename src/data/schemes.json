@@ -1,0 +1,369 @@
+[
+  {
+    "id": "pmay",
+    "name": "Pradhan Mantri Awas Yojana (PMAY)",
+    "category": "Housing",
+    "description": "Affordable housing scheme providing credit-linked interest subsidy for home purchase or construction for low and middle-income groups.",
+    "region": "All India",
+    "offline_explanation": "PMAY helps low and middle-income families buy or build their first home with government interest subsidy on home loans.",
+    "eligibility_rules": {
+      "age_min": 18,
+      "age_max": 70,
+      "income_max": 1800000,
+      "occupation": null,
+      "state": null
+    },
+    "benefits": "Interest subsidy up to ₹2.67 lakh on home loans",
+    "documents_required": ["Aadhaar Card", "Income Certificate", "Bank Account Details", "Proof of Property Ownership"],
+    "apply_url": "https://pmaymis.gov.in"
+  },
+  {
+    "id": "pm_kisan",
+    "name": "PM-Kisan Samman Nidhi",
+    "category": "Agriculture",
+    "description": "Direct income support of ₹6,000 per year in three equal instalments to eligible landholding farmer families across India.",
+    "region": "All India",
+    "offline_explanation": "PM-Kisan provides ₹6,000 yearly direct cash support directly to the bank accounts of small and marginal farmer families.",
+    "eligibility_rules": {
+      "age_min": 18,
+      "age_max": null,
+      "income_max": null,
+      "occupation": ["farmer", "agriculturist"],
+      "state": null
+    },
+    "benefits": "₹6,000 annual cash transfer in 3 instalments of ₹2,000",
+    "documents_required": ["Aadhaar Card", "Landholding Records (Khasra/Khatauni)", "Bank Account Details"],
+    "apply_url": "https://pmkisan.gov.in"
+  },
+  {
+    "id": "apy",
+    "name": "Atal Pension Yojana (APY)",
+    "category": "Pension & Social Security",
+    "description": "Guaranteed minimum monthly pension scheme for workers in the unorganised sector after reaching 60 years of age.",
+    "region": "All India",
+    "offline_explanation": "APY gives unorganised sector workers a guaranteed government monthly pension of ₹1,000 to ₹5,000 after turning 60.",
+    "eligibility_rules": {
+      "age_min": 18,
+      "age_max": 40,
+      "income_max": null,
+      "occupation": null,
+      "state": null
+    },
+    "benefits": "Guaranteed monthly pension of ₹1,000 to ₹5,000 post age 60",
+    "documents_required": ["Aadhaar Card", "Savings Bank Account", "Mobile Number"],
+    "apply_url": "https://npslite-nsdl.com"
+  },
+  {
+    "id": "ssy",
+    "name": "Sukanya Samriddhi Yojana (SSY)",
+    "category": "Child Welfare & Savings",
+    "description": "Government-backed small savings scheme for girl children offering high tax-free interest and long-term financial security.",
+    "region": "All India",
+    "offline_explanation": "SSY is a high-interest savings scheme for girl children under 10, providing tax-free maturity funds for education and marriage.",
+    "eligibility_rules": {
+      "age_min": 0,
+      "age_max": 10,
+      "income_max": null,
+      "occupation": null,
+      "state": null,
+      "gender": ["Female"]
+    },
+    "benefits": "8.2% annual compound interest with 100% tax exemption under Section 80C",
+    "documents_required": ["Birth Certificate of Girl Child", "Guardian's Aadhaar & PAN Card", "Address Proof"],
+    "apply_url": "https://www.indiapost.gov.in"
+  },
+  {
+    "id": "mudra",
+    "name": "MUDRA Yojana (PMMY)",
+    "category": "Business & Microfinance",
+    "description": "Collateral-free business loans up to ₹10 lakh for micro and small non-farm enterprises in Shishu, Kishor, and Tarun categories.",
+    "region": "All India",
+    "offline_explanation": "MUDRA offers collateral-free business loans up to ₹10 lakh to small entrepreneurs, shopkeepers, and artisans.",
+    "eligibility_rules": {
+      "age_min": 18,
+      "age_max": 65,
+      "income_max": null,
+      "occupation": null,
+      "state": null
+    },
+    "benefits": "Collateral-free loans: Shishu (up to ₹50k), Kishor (up to ₹5L), Tarun (up to ₹10L)",
+    "documents_required": ["Identity Proof", "Business Plan / Proof of Establishment", "Bank Statements"],
+    "apply_url": "https://www.mudra.org.in"
+  },
+  {
+    "id": "pmjay",
+    "name": "Ayushman Bharat (PM-JAY)",
+    "category": "Healthcare",
+    "description": "Health insurance scheme offering ₹5 lakh cover per family per year for secondary and tertiary cashless hospitalisation.",
+    "region": "All India",
+    "offline_explanation": "PM-JAY provides free cashless health insurance up to ₹5 lakh per year per family at empaneled hospitals across India.",
+    "eligibility_rules": {
+      "age_min": 0,
+      "age_max": null,
+      "income_max": 500000,
+      "occupation": null,
+      "state": null
+    },
+    "benefits": "Cashless health cover up to ₹5,000,000 per family per year",
+    "documents_required": ["Aadhaar Card", "Ration Card / Ayushman Card", "Mobile Number"],
+    "apply_url": "https://pmjay.gov.in"
+  },
+  {
+    "id": "nsp",
+    "name": "National Scholarship Portal (NSP)",
+    "category": "Education",
+    "description": "Central and state scholarships providing financial aid for school and higher education to students from economically weaker sections.",
+    "region": "All India",
+    "offline_explanation": "NSP provides scholarships to students from school to college level to cover tuition fees and educational expenses.",
+    "eligibility_rules": {
+      "age_min": 6,
+      "age_max": 30,
+      "income_max": 800000,
+      "occupation": ["student"],
+      "state": null
+    },
+    "benefits": "Direct bank transfer of scholarship amounts ranging from ₹2,000 to ₹50,000 per year",
+    "documents_required": ["Educational Marksheets", "Income Certificate", "Caste / Category Certificate", "Aadhaar Card"],
+    "apply_url": "https://scholarships.gov.in"
+  },
+  {
+    "id": "pmfby",
+    "name": "PM Fasal Bima Yojana (PMFBY)",
+    "category": "Agriculture",
+    "description": "Comprehensive crop insurance protecting farmers against yield losses caused by non-preventable natural risks, pests, and diseases.",
+    "region": "All India",
+    "offline_explanation": "PMFBY insures farmers' crops against weather damages and pests at low subsidized premium rates.",
+    "eligibility_rules": {
+      "age_min": 18,
+      "age_max": null,
+      "income_max": null,
+      "occupation": ["farmer", "agriculturist"],
+      "state": null
+    },
+    "benefits": "Complete insurance payout for crop damage with low farmer premium (1.5% to 2%)",
+    "documents_required": ["Land Sowing Certificate", "Land Ownership Documents", "Aadhaar Card", "Bank Passbook"],
+    "apply_url": "https://pmfby.gov.in"
+  },
+  {
+    "id": "standup_india",
+    "name": "Stand-Up India Scheme",
+    "category": "Entrepreneurship",
+    "description": "Bank loan assistance between ₹10 lakh and ₹1 crore for SC, ST, and Women entrepreneurs to set up greenfield enterprises.",
+    "region": "All India",
+    "offline_explanation": "Stand-Up India facilitates bank loans up to ₹1 crore for SC/ST and female entrepreneurs starting new business ventures.",
+    "eligibility_rules": {
+      "age_min": 18,
+      "age_max": 65,
+      "income_max": 1500000,
+      "occupation": null,
+      "state": null,
+      "caste": ["SC", "ST"]
+    },
+    "benefits": "Bank loans from ₹10 lakh up to ₹1 crore with subsidized interest rates",
+    "documents_required": ["Caste Certificate (if SC/ST)", "Project Report", "Aadhaar & PAN Card", "Address Proof"],
+    "apply_url": "https://www.standupmitra.in"
+  },
+  {
+    "id": "pm_svanidhi",
+    "name": "PM SVANidhi Scheme",
+    "category": "Urban Micro-credit",
+    "description": "Special micro-credit facility providing street vendors with collateral-free working capital loans up to ₹50,000 with interest subsidy.",
+    "region": "All India",
+    "offline_explanation": "PM SVANidhi gives street vendors collateral-free loans up to ₹50,000 with cashback incentives for digital transactions.",
+    "eligibility_rules": {
+      "age_min": 18,
+      "age_max": null,
+      "income_max": 300000,
+      "occupation": ["street vendor", "vendor", "hawker", "shopkeeper"],
+      "state": null
+    },
+    "benefits": "Collateral-free working capital loan of ₹10,000, ₹20,000, and ₹50,000 with 7% interest subsidy",
+    "documents_required": ["Vending Certificate / Urban Local Body ID Card", "Aadhaar Card", "Bank Account Details"],
+    "apply_url": "https://pmsvanidhi.mohua.gov.in"
+  },
+  {
+    "id": "pm_vishwakarma",
+    "name": "PM Vishwakarma Scheme",
+    "category": "Skill Development & Artisans",
+    "description": "Comprehensive support scheme for traditional artisans and craftsmen providing skill training, toolkit incentives, and collateral-free credit.",
+    "region": "All India",
+    "offline_explanation": "PM Vishwakarma provides traditional artisans ₹15,000 toolkit grants and ₹3 lakh collateral-free loans at 5% interest.",
+    "eligibility_rules": {
+      "age_min": 18,
+      "age_max": 65,
+      "income_max": 400000,
+      "occupation": ["artisan", "craftsman", "blacksmith", "goldsmith", "carpenter", "tailor", "cobbler"],
+      "state": null
+    },
+    "benefits": "₹15,000 toolkit incentive, ₹500/day training stipend, and loans up to ₹3 lakh at 5% interest",
+    "documents_required": ["Aadhaar Card", "Ration Card", "Artisan Trade Certificate", "Bank Account Details"],
+    "apply_url": "https://pmvishwakarma.gov.in"
+  },
+  {
+    "id": "pm_poshan",
+    "name": "PM POSHAN Scheme",
+    "category": "Nutrition & Education",
+    "description": "Centrally sponsored scheme providing free balanced hot-cooked nutritional meals to primary and upper primary school students.",
+    "region": "All India",
+    "offline_explanation": "PM POSHAN provides free nutritious daily lunches to school students in government and government-aided schools.",
+    "eligibility_rules": {
+      "age_min": 5,
+      "age_max": 14,
+      "income_max": null,
+      "occupation": ["student"],
+      "state": null
+    },
+    "benefits": "Free daily cooked mid-day meal with guaranteed nutritional standards",
+    "documents_required": ["School Enrolment Number / Student ID", "Aadhaar Card"],
+    "apply_url": "https://pmposhan.education.gov.in"
+  },
+  {
+    "id": "pm_kusum",
+    "name": "PM KUSUM Scheme",
+    "category": "Agriculture & Solar Energy",
+    "description": "Subsidized solar pump scheme enabling farmers to install off-grid solar agriculture pumps and sell excess solar power to the grid.",
+    "region": "All India",
+    "offline_explanation": "PM KUSUM provides farmers up to 90% subsidy for installing solar water pumps for farm irrigation.",
+    "eligibility_rules": {
+      "age_min": 18,
+      "age_max": null,
+      "income_max": null,
+      "occupation": ["farmer", "agriculturist"],
+      "state": null
+    },
+    "benefits": "Up to 90% total subsidy (60% central+state subsidy, 30% bank loan) for solar agricultural pumps",
+    "documents_required": ["Land Lease / Ownership Documents", "Aadhaar Card", "Bank Passbook", "Electricity Bill (if grid connected)"],
+    "apply_url": "https://pmkusum.mnre.gov.in"
+  },
+  {
+    "id": "pmfme",
+    "name": "PM Formalisation of Micro Food Processing Enterprises (PMFME)",
+    "category": "Food Processing & Micro Industry",
+    "description": "Financial, technical, and business support for individual micro food processing units, self-help groups, and producer cooperatives.",
+    "region": "All India",
+    "offline_explanation": "PMFME offers 35% credit-linked capital subsidy up to ₹10 lakh for setting up or upgrading micro food processing businesses.",
+    "eligibility_rules": {
+      "age_min": 18,
+      "age_max": 65,
+      "income_max": 1000000,
+      "occupation": ["self-employed", "entrepreneur", "small business", "farmer"],
+      "state": null
+    },
+    "benefits": "35% credit-linked capital subsidy up to ₹10 lakh for food processing machinery and infrastructure",
+    "documents_required": ["FSSAI License / Registration", "Project Report", "Aadhaar Card", "GST Registration (if applicable)"],
+    "apply_url": "https://pmfme.mofpi.gov.in"
+  },
+  {
+    "id": "bihar_kisan",
+    "name": "Bihar Krishi Input Subsidy Scheme",
+    "category": "State Welfare & Agriculture",
+    "description": "State government scheme providing direct financial compensation and seed/fertiliser subsidies to Bihar farmers affected by natural disasters.",
+    "region": "Bihar",
+    "offline_explanation": "This Bihar state scheme subsidises seeds and fertilisers for registered farmers facing agricultural losses.",
+    "eligibility_rules": {
+      "age_min": 18,
+      "age_max": null,
+      "income_max": 400000,
+      "occupation": ["farmer", "agriculturist"],
+      "state": ["Bihar"]
+    },
+    "benefits": "Subsidy up to ₹13,500 per hectare for unirrigated and irrigated agricultural land loss",
+    "documents_required": ["DBT Bihar Agriculture Farmer Registration ID", "LPC / Land Receipt", "Bank Passbook"],
+    "apply_url": "https://dbtagriculture.bihar.gov.in"
+  },
+  {
+    "id": "nsfdc_term_loan",
+    "name": "NSFDC Term Loan Scheme",
+    "category": "Social Justice & Empowerment",
+    "description": "Term loan scheme providing financial assistance up to ₹30.00 lakhs to Scheduled Caste (SC) entrepreneurs for setting up income generating ventures.",
+    "region": "All India",
+    "offline_explanation": "Provides loans up to ₹30 Lakh for SC entrepreneurs at very low interest rates (6-8%) to start or expand businesses.",
+    "eligibility_rules": {
+      "age_min": 18,
+      "age_max": 60,
+      "income_max": 800000,
+      "occupation": null,
+      "state": null,
+      "caste": ["SC"]
+    },
+    "benefits": "Loan up to ₹30 Lakhs at 6% to 8% interest p.a.",
+    "documents_required": ["SC Caste Certificate", "Income Certificate", "Project Report", "Aadhaar Card"],
+    "apply_url": "https://nsfdc.nic.in"
+  },
+  {
+    "id": "nbcfdc_term_loan",
+    "name": "NBCFDC Term Loan Scheme",
+    "category": "Social Justice & Empowerment",
+    "description": "Financial assistance scheme for Other Backward Classes (OBC) entrepreneurs to start self-employment and income generating activities.",
+    "region": "All India",
+    "offline_explanation": "Provides loans up to ₹15 Lakh for OBC entrepreneurs at subsidized interest rates to help them build businesses.",
+    "eligibility_rules": {
+      "age_min": 18,
+      "age_max": 60,
+      "income_max": 800000,
+      "occupation": null,
+      "state": null,
+      "caste": ["OBC"]
+    },
+    "benefits": "Loan up to ₹15 Lakhs at 6% to 8% interest p.a.",
+    "documents_required": ["OBC Caste Certificate", "Income Certificate", "Project Report", "Aadhaar Card"],
+    "apply_url": "https://nbcfdc.gov.in"
+  },
+  {
+    "id": "pm_daksh",
+    "name": "PM-DAKSH Yojana",
+    "category": "Skill Development",
+    "description": "Pradhan Mantri Dakshta Aur Kushalta Sampann Hitgrahi (PM-DAKSH) Yojana offers free skill development training programs to SC, OBC, EBC, DNT, and Safai Karamcharis.",
+    "region": "All India",
+    "offline_explanation": "Offers high-quality free skill training for marginalized groups along with stipend and placement assistance.",
+    "eligibility_rules": {
+      "age_min": 18,
+      "age_max": 45,
+      "income_max": 800000,
+      "occupation": null,
+      "state": null,
+      "caste": ["SC", "OBC", "EWS"]
+    },
+    "benefits": "100% free training, stipend of ₹1,000 to ₹1,500 per month, and job placement assistance.",
+    "documents_required": ["Caste/Category Certificate", "Income Certificate", "Aadhaar Card", "Bank Passbook"],
+    "apply_url": "https://pmdaksh.dosje.gov.in"
+  },
+  {
+    "id": "vcf_sc",
+    "name": "Venture Capital Fund for SCs",
+    "category": "Startup & Enterprise",
+    "description": "Venture Capital Fund to promote entrepreneurship among Scheduled Castes by providing concessional finance to SC-owned companies.",
+    "region": "All India",
+    "offline_explanation": "Provides funding from ₹20 Lakhs to ₹15 Crores for established SC entrepreneurs and startups.",
+    "eligibility_rules": {
+      "age_min": 18,
+      "age_max": null,
+      "income_max": null,
+      "occupation": null,
+      "state": null,
+      "caste": ["SC"]
+    },
+    "benefits": "Concessional finance up to ₹15 Crores (Max 75% of project cost) at 4% to 8% interest.",
+    "documents_required": ["Company Incorporation Certificate", "SC Caste Certificate (must hold >51% stake)", "Detailed Project Report", "Audited Financials"],
+    "apply_url": "https://www.vcfsc.in"
+  },
+  {
+    "id": "mahila_samriddhi",
+    "name": "Mahila Samriddhi Yojana",
+    "category": "Women Empowerment",
+    "description": "Microfinance scheme for female entrepreneurs to start small businesses with concessional interest rates.",
+    "region": "All India",
+    "offline_explanation": "Provides easy microfinance to women starting self-employment ventures.",
+    "eligibility_rules": {
+      "age_min": 18,
+      "age_max": 60,
+      "income_max": 300000,
+      "occupation": null,
+      "state": null,
+      "gender": ["Female"]
+    },
+    "benefits": "Loans up to ₹1.4 Lakhs at subsidized interest rates (approx 4% p.a.).",
+    "documents_required": ["Aadhaar Card", "Income Certificate", "Business Plan"],
+    "apply_url": "https://nsfdc.nic.in"
+  }
+]
